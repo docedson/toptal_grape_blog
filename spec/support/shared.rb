@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.shared_examples 'json result' do
   specify 'returns JSON' do
     api_call params
